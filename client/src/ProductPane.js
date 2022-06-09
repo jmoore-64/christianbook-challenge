@@ -1,8 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
+/**
+ * Custom Component representing a given product and its relevant information
+ * @param {Object} param0 the current product to be shown
+ * @returns a product pane
+ */
 export default function ProductPane ({currentProd}) {
-
-    console.log(currentProd);
     return (
         <div>
             <h2>Title: {currentProd.title}</h2> 
