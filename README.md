@@ -12,6 +12,8 @@ Notable files:
 - build.sh* - downloads all dependencies for the system
 - run.sh* - starts the server as well as client
 
+To run the server and client separately (after running build.sh), simply use "npm start" in both folders: client and server
+
 The front-end runs on port 3000, and the back-end listens for requests on port 3001. The front-end sends and receives API requests through port 3001. 
 
 \* I made sure to make both scripts executable on Linux as well as convert Windows-style (my OS) line endings to Linux-style to ensure cross-platform compatibility. I did some testing on Linux and I believe it should work fine on both OS
